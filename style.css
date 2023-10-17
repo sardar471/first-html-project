@@ -1,0 +1,136 @@
+body {
+  background-color: #d6cfcf;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+html {
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+}
+.navbar {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: honeydew;
+  /* color: #fff; */
+  padding: 30px;
+  gap: 1rem;
+  margin-top: 0px;
+  /* margin-left: 1rem; */
+}
+#hi {
+  width: 30px;
+  height: 30px;
+}
+.logo {
+  display: flex;
+}
+.bar-icon {
+  margin-top: 4rem;
+
+  display: block;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(38, 37, 37);
+}
+
+.navbar .search-bar {
+  /* flex-grow: 1; */
+  margin: 0 20px;
+  /* margin-left: 20px; */
+}
+
+.navbar .search-bar input {
+  /* width: 100%; */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* CSS for Cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.card {
+  width: 20vmax;
+  background-color: darkgray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 40px;
+  height: initial;
+}
+
+.card img {
+  border-radius: inherit;
+  width: 100%;
+  height: 20vh;
+}
+
+.cards img {
+  max-width: 100%;
+}
+h4 {
+  font-size: large;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: cursive;
+}
+.card p {
+  margin-top: 7px;
+  text-align: center;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+#slidebar {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background: azure;
+  left: -300px;
+  transition: 0.4s;
+  max-height: calc(100nv-30px);
+}
+#slidebar.active {
+  left: 0;
+}
+ul li {
+  list-style: none;
+  color: #000;
+  font-size: 20px;
+  padding: 30px 24px;
+  /* margin-left: 4rem; */
+  text-align: center;
+}
+.png {
+  display: flex;
+  align-items: center;
+}
+
+/* .slide {
+  height: 100%;
+} */
